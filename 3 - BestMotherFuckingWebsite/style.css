@@ -1,0 +1,115 @@
+body {
+  background-color: #000;
+  margin: 32px auto;
+  max-width: 650px;
+  color: #d9d9d9;
+  padding: 16px;
+  font-size: 16px;
+  font-family: 'Open Sans';
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.red-text {
+  color: #b00000;
+}
+
+.blue-text {
+  color: #0000EE;
+  cursor: not-allowed;
+}
+
+.purple-text {
+  color: #551A8B;
+  cursor: not-allowed;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #00a2e7;
+}
+
+a:visited {
+  cursor: pointer;
+  text-decoration: underline;
+  color: yellow;
+}
+
+.tiny-text {
+  font-family: 'Open Sans', Arial;
+  font-size: 6.4px;
+}
+
+@keyframes changementCouleur {
+  0% {
+      color: #eb4747;
+  }
+  10% {
+      color: #ebb447;
+  }
+  20% {
+      color: #ebeb47;
+  }
+  30% {
+      color: #7eeb47;
+  }
+  40% {
+      color: #47eb8b;
+  }
+  50% {
+      color: #70eb47;
+  }
+  60% {
+      color: #4799eb;
+  }
+  70% {
+      color: #4747eb;
+  }
+  80% {
+      color: #5547eb;
+  }
+  90% {
+      color: #C247eb;
+  }
+  100% {
+      color: #eb477e;
+  }
+}
+
+.color-rainbow {
+  animation: changementCouleur 4s linear infinite; /* 4s pour la durée totale de l'animation */
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.one {
+  float: left;
+  width: 40%;
+  text-align: center;
+  margin-right: 1em;
+}
+
+.two {
+  flex: 1;
+  text-align: justify;
+  margin: auto 10px;
+  font-size: 16px;
+  font-family: 'Open Sans';
+}
+
+.one img {
+  max-width: 100%;
+  height: auto;
+}

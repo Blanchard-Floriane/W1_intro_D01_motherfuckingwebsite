@@ -1,3 +1,20 @@
+.conteneur {
+  background-color: #ffff;
+  margin: 40px auto;
+  max-width: 650px;
+  color: #444;
+  padding: 0 10px;
+  font-size: 18px;
+}
+
+p {
+  line-height: 1.6;
+}
+
+ul {
+  line-height: 1.6;
+}
+
 .different-text {
   font-size: 18px;
   line-height: 1.4;
